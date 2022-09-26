@@ -9,6 +9,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
+
 const Header = (props) => {
 	React.useEffect(()=>{
 
@@ -66,17 +67,19 @@ console.log(props);
 				}}
 			>
 				<Link className="color-black" to="/overview"><MenuItem onClick={handleClose2}>Overview</MenuItem></Link>
-				<Link className="color-black" to="/overview"><MenuItem onClick={handleClose2}>Chairman's Message</MenuItem></Link>
-				<Link className="color-black" to="/overview"><MenuItem onClick={handleClose2}>Vision, Mission, Values</MenuItem></Link>
-				<Link className="color-black" to="/overview"><MenuItem onClick={handleClose2}>Infrastructure</MenuItem></Link>
+				<Link className="color-black" to="/chairman"><MenuItem onClick={handleClose2}>Chairman's Message</MenuItem></Link>
+				<Link className="color-black" to="/vision"><MenuItem onClick={handleClose2}>Vision, Mission, Values</MenuItem></Link>
+				<Link className="color-black" to="/infrastructure"><MenuItem onClick={handleClose2}>Infrastructure</MenuItem></Link>
 			</Menu>
 			</div>
 			</li>
 			<li className="nav-item">
+			<Link to="products">
 			<Button
 			color="secondary"
 			sx={{fontSize:16}}
 			>Products</Button>
+			</Link>
 			</li>
 			<li className="nav-item">
 			<Button

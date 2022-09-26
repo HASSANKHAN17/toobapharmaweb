@@ -10,13 +10,13 @@ function Overview() {
         <Header />
             <div className="overview">
             <h1>About Us</h1>
-            <div className="row m-auto row-cont">
+            <div className="row m-auto row-cont align-items-center">
 
-              <div className="col-4">
+              <div className="col-5">
               <img src={mainbuilding} alt="mainbuilding" />
               </div>
 
-              <div className="col-8 info-col shadow-sm">
+              <div className="col-7 info-col shadow-sm">
                 <h3>Welcome to <span className="color-span">Tooba Pharmaceuticals</span></h3>
                 <p>
                 Tooba Pharmaceuticals Private Limited (TPPL) is a GMP Certified manufacturer of API Bulk Drugs and Intermediates, with state-of-the-art manufacturing facility.
