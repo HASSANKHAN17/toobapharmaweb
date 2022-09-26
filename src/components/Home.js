@@ -72,18 +72,18 @@ function Home() {
 
                 <div className="row m-auto justify-content-between api-product-container">
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Trazadone</p>
+                        <p className="compname">Glycopyrronium Bromide</p>
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Tamsulosine</p>
+                        <p className="compname">Glycopyrronium Bromide</p>
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Mexiletine</p>
+                        <p className="compname">Glycopyrrolate</p>
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Cyclizine</p>
+                        <p className="compname">Mexiletine Hydrochloride</p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    {/* <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Glycopyrrolate</p>
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -91,11 +91,11 @@ function Home() {
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3 mx-auto">
                         <p className="compname">Tolterodine</p>
-                    </div>
+                    </div> */}
                 </div>
 
 
-                <div className="blurcontainer heading">
+                {/* <div className="blurcontainer heading">
                 <h2 className="gradient-color">In Progress API Products</h2>
                 </div>
 
@@ -113,7 +113,7 @@ function Home() {
                         <p className="compname">Modafinil</p>
                     </div>
                    
-                </div>
+                </div> */}
 
             </section>
 

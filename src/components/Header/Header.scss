@@ -3,6 +3,13 @@
 span{
     font-family: $secondary-font;
 }
+
+.color-black{
+    color: black;
+}
+.color-black:hover{
+    color: black;
+}
 /* Setting the stroke to green using rgb values (0, 128, 0) */
   
 .custom-toggler .navbar-toggler-icon {
