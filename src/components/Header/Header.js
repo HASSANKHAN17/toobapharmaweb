@@ -8,7 +8,8 @@ import "./Header.scss"
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import DownloadIcon from '@mui/icons-material/Download';
+import toobalogo from '../../web data/tooba new logo 2019.jpg'
 
 const Header = (props) => {
 	React.useEffect(()=>{
@@ -36,7 +37,7 @@ console.log(props);
         <div className="p-4 rounded" style={{margin:"auto 5%"}}>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark   navbarclass " >
 	<div className="container-fluid">
-        <Link to="/"><img src={iconImage} height={50} width={50} alt="eventfavicon" /></Link>
+        <Link to="/"><img src={toobalogo} className="logoimg" alt="eventfavicon" /></Link>
 		{/* <Link className="navbar-brand"  style={{color:"black"}} to="/"><img style={{height:"6vh"}} src={Logo} /></Link> */}
 	<button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span className="navbar-toggler-icon" ></span>
@@ -119,28 +120,32 @@ console.log(props);
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <Link className="color-black" to="/multimedia"><MenuItem onClick={handleClose}>Multimedia</MenuItem></Link>
+        <MenuItem onClick={handleClose}>News</MenuItem>
+        <MenuItem onClick={handleClose}>Press Releases</MenuItem>
       </Menu>
     </div>
         </li>
 
 		<li className="nav-item">
+			<Link to ="/careers">
 			<Button
 			color="secondary"
 			sx={{fontSize:16}}
 			>Careers</Button>
+			</Link>
 			</li>
 			<li className="nav-item">
+			<Link className="color-black" to="/contact">
 			<Button
 			color="secondary"
 			sx={{fontSize:16}}
 			>Contact</Button>
+			</Link>
 			</li>
 
 			<li className="nav-item">
-			<Link>Download Brochure</Link>
+			<Button endIcon={<DownloadIcon />} variant="contained">Download Brochure</Button>
 			</li>
 			
 			

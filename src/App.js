@@ -6,6 +6,9 @@ import Chairman from './components/AboutUs/Chairman';
 import Vision from './components/AboutUs/Vision';
 import Infrastructure from './components/AboutUs/Infrastructure';
 import Products from './components/Products/Products';
+import Multimedia from './components/Media/Multimedia';
+import Contact from './components/Contact/Contact';
+import Careers from './components/Careers/Careers';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Route path="/vision" component={Vision} />
       <Route path="/infrastructure" component={Infrastructure} />
       <Route path="/products" component={Products} />
+      <Route path="/multimedia" component={Multimedia} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/careers" component={Careers} />
     </Switch>
   );
 }

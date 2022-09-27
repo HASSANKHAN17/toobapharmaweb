@@ -19,24 +19,28 @@ function Products() {
                 <div className="row m-auto api-div">
                     <div className="col-3 api-cont">
                     <img src={trazadone} alt="tarazadone" />
-                        <h4>Glycopyrronium Bromide (CAS No.: 51186-83-5)</h4>
+                        <h4>Glycopyrronium Bromide</h4>
+                        <h4>(CAS No.: 51186-83-5)</h4>
                         <p>Glycopyrronium Bromide Ph.Eur</p>
                     </div>
                     <div className="col-3 api-cont">
                         <img src={trazadone} alt="tarazadone" />
-                        <h4>Trazodone Hydrochloride (CAS No.: 25332-39-2)</h4>
+                        <h4>Trazodone Hydrochloride</h4>
+                        <h4>(CAS No.: 25332-39-2)</h4>
                         <p>Trazodone Hydrochloride USP</p>
                         <p>Trazodone Hydrochloride BP</p>
                     </div>
                     <div className="col-3 api-cont">
                         <img src={glycopyrrolate} alt="tarazadone" />
-                        <h4>Glycopyrrolate (CAS No.: 596-51-0)</h4>
+                        <h4>Glycopyrrolate</h4>
+                        <h4>(CAS No.: 596-51-0)</h4>
                         <p>Glycopyrrolate IP</p>
                         <p>Glycopyrrolate USP</p>
                     </div>
                     <div className="col-3 api-cont">
                         <img src={mexiletine} alt="tarazadone" />
-                        <h4>Mexiletine Hydrochloride (CAS No.: 5370-01-4)</h4>
+                        <h4>Mexiletine Hydrochloride</h4>
+                        <h4>(CAS No.: 5370-01-4)</h4>
                         <p>Mexiletine Hydrochloride Ph.Eur</p>
                         <p>Mexiletine Hydrochloride USP</p>
                     </div>
