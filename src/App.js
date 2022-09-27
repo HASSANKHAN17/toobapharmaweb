@@ -9,6 +9,7 @@ import Products from './components/Products/Products';
 import Multimedia from './components/Media/Multimedia';
 import Contact from './components/Contact/Contact';
 import Careers from './components/Careers/Careers';
+import Rdcrams from './components/Rdcrams/Rdcrams';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/multimedia" component={Multimedia} />
       <Route path="/contact" component={Contact} />
       <Route path="/careers" component={Careers} />
+      <Route path="/rdcrams" component={Rdcrams} />
     </Switch>
   );
 }

@@ -21,6 +21,12 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.gradient-color-dark{
+  background: -webkit-linear-gradient(#004d36, #478a76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 ::-webkit-scrollbar{
   width:5px !important;
 }
