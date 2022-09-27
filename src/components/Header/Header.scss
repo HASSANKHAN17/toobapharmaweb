@@ -4,6 +4,10 @@ span{
     font-family: $secondary-font;
 }
 
+.hover-button:hover{
+    color: $tertiary;
+}
+
 .color-black{
     color: black;
 }

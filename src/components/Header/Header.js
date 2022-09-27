@@ -47,6 +47,7 @@ console.log(props);
 			<li className="nav-item">
 			<div>
 			<Button
+			className="hover-button"
 				id="basic-button"
 				aria-controls={open2 ? 'basic-menu' : undefined}
 				aria-haspopup="true"
@@ -77,6 +78,7 @@ console.log(props);
 			<li className="nav-item">
 			<Link to="products">
 			<Button
+			className="hover-button"
 			color="secondary"
 			sx={{fontSize:16}}
 			>Products</Button>
@@ -85,6 +87,7 @@ console.log(props);
 			<li className="nav-item">
 			<Link to="rdcrams">
 			<Button
+			className="hover-button"
 			color="secondary"
 			sx={{fontSize:16}}
 			>R&D Crams</Button>
@@ -93,15 +96,18 @@ console.log(props);
 			{/* <li className="nav-item">
 			{props.userToken?
 			<Link  className="nav-link active" to="/dashboard">
-				<Button sx={{fontSize:"1.1rem"}} variant="contained" size="large" className="btn-purple">dashboard</Button>
+				<Button
+				className="hover-button" sx={{fontSize:"1.1rem"}} variant="contained" size="large" className="btn-purple">dashboard</Button>
 				</Link>:
 			<Link  className="nav-link"  to="/signup">
-				<Button sx={{fontSize:"1.1rem"}} variant="contained" size="large"  className="btn-purple">SignUp</Button>
+				<Button
+				className="hover-button" sx={{fontSize:"1.1rem"}} variant="contained" size="large"  className="btn-purple">SignUp</Button>
 				</Link>}
 			</li> */}
 		<li class="nav-item">
 		<div>
       <Button
+	  className="hover-button"
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
@@ -132,6 +138,7 @@ console.log(props);
 		<li className="nav-item">
 			<Link to ="/careers">
 			<Button
+			className="hover-button"
 			color="secondary"
 			sx={{fontSize:16}}
 			>Careers</Button>
@@ -140,6 +147,7 @@ console.log(props);
 			<li className="nav-item">
 			<Link className="color-black" to="/contact">
 			<Button
+			className="hover-button"
 			color="secondary"
 			sx={{fontSize:16}}
 			>Contact</Button>

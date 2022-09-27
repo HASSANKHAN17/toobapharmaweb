@@ -87,7 +87,7 @@ color: white;
 }
 
 .section3{
-background-image:url('../assets/section21.jpg');
+background-image:url('../assets/apiprod.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
@@ -96,12 +96,7 @@ width: 100vw;
 margin: 2% 0;
 color: white;
 padding: 4% 2%;
-.blurcontainer{
-    border-radius: 10px;
-backdrop-filter: blur(1px);
-background: rgba(160, 160, 160, 0.247);
 
-}
 .heading{
     width: 30%;
     margin: auto;
@@ -112,23 +107,51 @@ background: rgba(160, 160, 160, 0.247);
         font-weight: 700;
         color: $primary;
     }
+
+}
+.blurcontainer{
+    border-radius: 10px;
+backdrop-filter: blur(1px);
+background: rgba(24, 71, 52, 0.705);
+
+}
 .api-product-container{
     padding: 2%;
+    P{
+        color: white;
+    }
     div{
         padding: 2%;
         margin: 2% 2%;
         text-align: center;
     }
     .compname{
-        font-size: 1.5em;
+        font-size: 1.7em;
+    }
+    span{
+        font-size: .7em;
+        color: #c5c5c5;
     }
 }
+
+.incom-api{
+    text-align: center;
 }
 
+.incoming-api{
+    h1{
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
 
 .section4{
     text-align: center;
     margin: 5% auto;
+    h1{
+        font-size: 3em;
+        font-weight: 300;
+    }
     h2{
         font-size: 3em;
         font-weight: 400;
@@ -141,6 +164,7 @@ background: rgba(160, 160, 160, 0.247);
         margin: 2% 3%;
         padding: 3% 0;
         border-radius: 15px;
+        height: 100%;
         h3{
             font-size: 1.5em;
         }
@@ -153,7 +177,7 @@ background: rgba(160, 160, 160, 0.247);
         img{
             border-radius: 10px;
         border: 2px solid $tertiary;
-
+        width: 70%;
         }
 background: #018f6444;
 background: -webkit-linear-gradient(top left, #018f6444, #b1ffe823);

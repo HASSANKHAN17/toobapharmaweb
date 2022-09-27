@@ -86,7 +86,7 @@ function Products() {
                 <tr>
                 <td data-label="Name">6</td>
                 <td data-label="Age">Modafinil </td>
-                <td data-label="Job">129722-12-9</td>
+                <td data-label="Job">68693-11-8</td>
                 </tr>
                 <tr>
                 <td data-label="Name">7</td>

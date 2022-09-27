@@ -39,7 +39,7 @@ function Home() {
 
            <section className="row m-auto section2 align-items-center">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 imgdiv">
-                    <img src={strengthimg} alt="strengthimg" />
+                    <img src="/strength.jpg" alt="strengthimg" />
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 info">
                     <h2>Strength</h2>
@@ -70,28 +70,45 @@ function Home() {
                 <h2 className="gradient-color">Available API Products</h2>
                 </div>
 
-                <div className="row m-auto justify-content-between api-product-container">
+                <div className="row m-auto justify-content-around api-product-container">
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Glycopyrronium Bromide</p>
-                    </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Glycopyrronium Bromide</p>
-                    </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Glycopyrrolate</p>
-                    </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Mexiletine Hydrochloride</p>
-                    </div>
-                    {/* <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Glycopyrrolate</p>
+                        <p className="compname">Glycopyrronium Bromide
+                        <br />
+                        (CAS No.: 51186-83-5)
+                        <br />
+                        <span>Glycopyrronium Bromide Ph.Eur</span>
+                        </p>
                     </div>
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Aripiprazole</p>
+                        <p className="compname">Trazodone Hydrochloride
+                        <br />
+                        (CAS No.: 25332-39-2)
+                        <br />
+                        <span>Trazodone Hydrochloride USP</span>
+                        <br />
+                        <span>Trazodone Hydrochloride BP</span>
+                        </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3 mx-auto">
-                        <p className="compname">Tolterodine</p>
-                    </div> */}
+                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Glycopyrrolate
+                        <br />
+                        (CAS No.: 596-51-0)
+                        <br />
+                        <span>Glycopyrrolate IP</span>
+                        <br />
+                        <span>Glycopyrrolate USP</span>
+                        </p>
+                    </div>
+                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Mexiletine Hydrochloride
+                        <br />
+                        (CAS No.: 5370-01-4)
+                        <br />
+                        <span>Glycopyrronium Bromide Ph.Eur</span>
+                        <br />
+                        <span>Mexiletine Hydrochloride USP</span>
+                        </p>
+                    </div>
                 </div>
 
 
@@ -117,6 +134,81 @@ function Home() {
 
             </section>
 
+            <h1 className="gradient-color-dark incom-api">Incoming API Products</h1>
+            <section className="incoming-api row m-auto justify-content-around api-product-container">
+                
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Nitrofurantoin
+                        <br />
+                        (CAS No.: 67-20-9)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Tamsulosin Hydrochloride
+                        <br />
+                        (CAS No.: 106463-17-3)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Tolterodine Tartrate
+                        <br />
+                        (CAS No.: 124937-52-6)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Rivaroxaban
+                        <br />
+                        (CAS No.: 366789-02-8)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Aripiprazole
+                        <br />
+                        (CAS No.: 129722-12-9)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Modafinil
+                        <br />
+                        (CAS No.: 68693-11-8)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Cinacalcet Hydrochloride
+                        <br />
+                        (CAS No.: 364782-34-3)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Metronidazole Benzoate
+                        <br />
+                        (CAS No.: 13182-89-3)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Cyclizine Hydrochloride
+                        <br />
+                        (CAS No.: 5897-18-7)
+                        <br />
+                        </p>
+                </div>
+                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Methylcobalamin
+                        <br />
+                        (CAS No.: 13422-55-4)
+                        <br />
+                        </p>
+                </div>
+            </section>
+
 
        
 
@@ -124,7 +216,106 @@ function Home() {
 
             <section className="section4">
                 <h2>Our Portfolio</h2>  
+                <h1>Admin</h1>
                 <div className="row m-auto justify-content-between portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/admin1.JPG" alt="ahu" />
+                        <h3>Admin Office</h3>
+                        <p>Admin</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/admin2.JPG" alt="ahu" />
+                        <h3>Conference Hall</h3>
+                        <p>Admin</p>
+                    </div>
+                    {/* <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/admin3.JPG" alt="ahu" />
+                        <h3>AHU's</h3>
+                        <p>Admin</p>
+                    </div> */}
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/admin4.JPG" alt="ahu" />
+                        <h3>Admin Corridor</h3>
+                        <p>Admin</p>
+                    </div>
+                </div>
+
+                <h1>Finish Block</h1>
+                <div className="row m-auto justify-content-between portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/finishblock1.JPG" alt="ahu" />
+                        <h3>FB 1</h3>
+                        <p>Finish Block 1</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/finishblock2.JPG" alt="ahu" />
+                        <h3>FB 2</h3>
+                        <p>Finish Block 2</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/finishblock3.JPG" alt="ahu" />
+                        <h3>FB 3</h3>
+                        <p>Finish Block 3</p>
+                    </div>
+                </div>
+
+                <h1>Others</h1>
+                <div className="row m-auto justify-content-between portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/R&D.JPG" alt="ahu" />
+                        <h3>R & D</h3>
+                        <p>Research and Development</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/QA&QC.JPG" alt="ahu" />
+                        <h3>QA & QC</h3>
+                        <p>QA and QC</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/SOLVENTYARD.JPG" alt="ahu" />
+                        <h3>Solvent Yard</h3>
+                        <p>Solvent Yard</p>
+                    </div>
+
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                       <img className='shadow' src={cleanroom} alt="ahu" />
+                       <h3>Cleanroom</h3>
+                       <p>cleanroom</p>
+                   </div>
+
+                   <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                       <img className='shadow' src={ahu} alt="ahu" />
+                       <h3>AHU's</h3>
+                       <p>Air Handling Units</p>
+                   </div>
+
+                   <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                       <img className='shadow' src={purification} alt="ahu" />
+                       <h3>Purification</h3>
+                       <p>Water Purification Plant</p>
+                   </div>
+                </div>
+
+
+                <h1>Reactor</h1>
+                <div className="row m-auto justify-content-between portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/reactor1.JPG" alt="ahu" />
+                        <h3>Reactor 1</h3>
+                        <p>Reactor 1</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/reactor2.JPG" alt="ahu" />
+                        <h3>Reactor 2</h3>
+                        <p>Reactor 2</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/reactor3.JPG" alt="ahu" />
+                        <h3>Reactor 3</h3>
+                        <p>Reactor 3</p>
+                    </div>
+                </div>
+                {/* <div className="row m-auto justify-content-between portcontainer">
                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                        <img className='shadow' src={ahu} alt="ahu" />
                        <h3>AHU's</h3>
@@ -160,7 +351,7 @@ function Home() {
                        <h3>Admin</h3>
                        <p>Admin</p>
                    </div>
-                </div>
+                </div> */}
             </section>
 
           
