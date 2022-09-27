@@ -21,6 +21,12 @@ import img5 from '../assets/slider5.jpeg'
 import img6 from '../assets/slider6.jpeg'
 import img7 from '../assets/slider7.jpeg'
 import gallery from '../assets/gallery.png'
+import qaqc from '../web data/FINAL PHOTOS/OTHERS/QA & QC.jpg'
+import reactor from '../web data/FINAL PHOTOS/Reactor/1.jpg'
+import reactor2 from '../web data/FINAL PHOTOS/Reactor/4.jpg'
+import reactor3 from '../web data/FINAL PHOTOS/Reactor/5.jpg'
+import stabilityroom1 from '../web data/FINAL PHOTOS/stability room/1.jpg'
+import stabilityroom2 from '../web data/FINAL PHOTOS/stability room/5.jpg'
 import Footer from './Footer/Footer'
 function Home() {
     return (
@@ -249,18 +255,18 @@ Environment friendliness and safety shall be part of TPPL culture.
                 <div className="row m-auto justify-content-between portcontainer">
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock1.JPG" alt="ahu" />
-                        <h3>FB 1</h3>
-                        <p>Finish Block 1</p>
+                        <h3>FB</h3>
+                        <p>Finish Block</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock2.JPG" alt="ahu" />
-                        <h3>FB 2</h3>
-                        <p>Finish Block 2</p>
+                        <h3>FB</h3>
+                        <p>Finish Block</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock3.JPG" alt="ahu" />
-                        <h3>FB 3</h3>
-                        <p>Finish Block 3</p>
+                        <h3>FB</h3>
+                        <p>Finish Block</p>
                     </div>
                 </div>
 
@@ -272,7 +278,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <p>Research and Development</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/QA&QC.JPG" alt="ahu" />
+                        <img className='shadow' src={qaqc} alt="ahu" />
                         <h3>QA & QC</h3>
                         <p>QA and QC</p>
                     </div>
@@ -305,19 +311,19 @@ Environment friendliness and safety shall be part of TPPL culture.
                 <h1>Reactor</h1>
                 <div className="row m-auto justify-content-between portcontainer">
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/reactor1.JPG" alt="ahu" />
-                        <h3>Reactor 1</h3>
-                        <p>Reactor 1</p>
+                        <img className='shadow' src={reactor} alt="ahu" />
+                        <h3>Reactor</h3>
+                        <p>Reactor</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/reactor2.JPG" alt="ahu" />
-                        <h3>Reactor 2</h3>
-                        <p>Reactor 2</p>
+                        <img className='shadow' src={reactor2} alt="ahu" />
+                        <h3>Reactor</h3>
+                        <p>Reactor</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/reactor3.JPG" alt="ahu" />
-                        <h3>Reactor 3</h3>
-                        <p>Reactor 3</p>
+                        <img className='shadow' src={reactor3} alt="ahu" />
+                        <h3>Reactor</h3>
+                        <p>Reactor</p>
                     </div>
                 </div>
 
@@ -325,32 +331,32 @@ Environment friendliness and safety shall be part of TPPL culture.
                 <div className="row m-auto justify-content-between portcontainer">
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/stores1.JPG" alt="ahu" />
-                        <h3>Store 1</h3>
-                        <p>Store 1</p>
+                        <h3>Store</h3>
+                        <p>Store</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/stores2.JPG" alt="ahu" />
-                        <h3>Store 2</h3>
-                        <p>Store 2</p>
+                        <h3>Store</h3>
+                        <p>Store</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/stores3.JPG" alt="ahu" />
-                        <h3>Store 3</h3>
-                        <p>Store 3</p>
+                        <h3>Store</h3>
+                        <p>Store</p>
                     </div>
                 </div>
 
                 <h1>Stability Room</h1>
                 <div className="row m-auto justify-content-center portcontainer">
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/stabilityroom1.JPG" alt="ahu" />
-                        <h3>Stability Room 1</h3>
-                        <p>Stability Room 1</p>
+                        <img className='shadow' src={stabilityroom1} alt="ahu" />
+                        <h3>Stability Room</h3>
+                        <p>Stability Room</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
-                        <img className='shadow' src="/stabilityroom2.JPG" alt="ahu" />
-                        <h3>Stability Room 2</h3>
-                        <p>Stability Room 2</p>
+                        <img className='shadow' src={stabilityroom2} alt="ahu" />
+                        <h3>Stability Room</h3>
+                        <p>Stability Room</p>
                     </div>
 
                 </div>
