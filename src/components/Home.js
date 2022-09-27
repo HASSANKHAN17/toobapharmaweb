@@ -55,12 +55,17 @@ function Home() {
 
            <section className="row gallerysection align-items-center m-auto">
                 <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 imgdiv">
-                <img src={gallery} alt="gallery" />
+                <img src={'/gallery.png'} alt="gallery" />
                 </div>
 
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 info">
                     <h2>Gallery</h2>
-                    <p>Laboris pariatur proident consectetur nulla eiusmod veniam cupidatat enim aliqua quis. Reprehenderit duis enim laboris ut officia ut ex. Eiusmod veniam duis nulla ex nulla sint ut ullamco ex elit voluptate. Occaecat proident laboris magna qui.</p>
+                    <p>
+                    TPPL focus tirelessly on developing novel processes applying contemporary know-how, Inculcating culture of innovation in its technical team, focus will be maintain on consistency and integrity of processes through continuous development, validation and documentation..
+This shall be achieved by inculcating a culture of innovation in its technical teams.
+Human resource development and honing their competencies through training and inclusiveness.
+Environment friendliness and safety shall be part of TPPL culture.
+                    </p>
                 </div>
             </section>
 
@@ -314,6 +319,40 @@ function Home() {
                         <h3>Reactor 3</h3>
                         <p>Reactor 3</p>
                     </div>
+                </div>
+
+                <h1>Stores</h1>
+                <div className="row m-auto justify-content-between portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/stores1.JPG" alt="ahu" />
+                        <h3>Store 1</h3>
+                        <p>Store 1</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/stores2.JPG" alt="ahu" />
+                        <h3>Store 2</h3>
+                        <p>Store 2</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/stores3.JPG" alt="ahu" />
+                        <h3>Store 3</h3>
+                        <p>Store 3</p>
+                    </div>
+                </div>
+
+                <h1>Stability Room</h1>
+                <div className="row m-auto justify-content-center portcontainer">
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/stabilityroom1.JPG" alt="ahu" />
+                        <h3>Stability Room 1</h3>
+                        <p>Stability Room 1</p>
+                    </div>
+                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
+                        <img className='shadow' src="/stabilityroom2.JPG" alt="ahu" />
+                        <h3>Stability Room 2</h3>
+                        <p>Stability Room 2</p>
+                    </div>
+
                 </div>
                 {/* <div className="row m-auto justify-content-between portcontainer">
                    <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
