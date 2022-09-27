@@ -145,7 +145,7 @@ Environment friendliness and safety shall be part of TPPL culture.
 
             </section>
 
-            <h1 className="gradient-color-dark incom-api">Incoming API Products</h1>
+            <h1 className="gradient-color-dark incom-api">In Progress API Products</h1>
             <section className="incoming-api row m-auto justify-content-around api-product-container">
                 
                 <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -255,17 +255,17 @@ Environment friendliness and safety shall be part of TPPL culture.
                 <div className="row m-auto justify-content-between portcontainer">
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock1.JPG" alt="ahu" />
-                        <h3>FB</h3>
+                        <h3>Finish Block</h3>
                         <p>Finish Block</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock2.JPG" alt="ahu" />
-                        <h3>FB</h3>
+                        <h3>Finish Block</h3>
                         <p>Finish Block</p>
                     </div>
                     <div className="col-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 item">
                         <img className='shadow' src="/finishblock3.JPG" alt="ahu" />
-                        <h3>FB</h3>
+                        <h3>Finish Block</h3>
                         <p>Finish Block</p>
                     </div>
                 </div>
