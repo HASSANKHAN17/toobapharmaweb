@@ -28,7 +28,7 @@ function Home() {
            <section className="section1">
             <Header />
                 <div className="namecontainer">
-                <img src={toobalogo} alt="toobalogo" />
+                {/* <img src={toobalogo} alt="toobalogo" /> */}
                 <h1 className="gradient-color">Tooba Pharmaceuticals Private Limited</h1>
                 <p>In The Business of Human Wellbeing <FormatQuoteRoundedIcon className="icon"/></p>
                 <blockquote>
