@@ -25,7 +25,7 @@ function Footer() {
         <div className="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xl-2">
         <h4>Important Links</h4>
         <Link to="/overview" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> About Us</p></Link>
-        <Link to="/rdcrams" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> R & D Crams</p></Link>
+        <Link to="/rdcrams" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Services</p></Link>
         <Link to="/products" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Products</p></Link>
         <Link to="/chairman" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Chairman's Message</p></Link>
         <Link to="/vision" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Vision</p></Link>
@@ -39,6 +39,8 @@ function Footer() {
         <p><LocalPhoneIcon /> +919860581297, +919373680996</p>
         <p><MailOutlineIcon /> info@toobapharma.in</p>
         <p><LocationOnIcon /> Plot No:A-117, A-118 & A-119, Paithan Industrial Area, Aurangabad-431148 (M.S)</p>
+        <img src="/makeinindiarmb.png" alt="makeinindia" className="makeinindialogo" />
+
         </div>
 
         <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xl-4">

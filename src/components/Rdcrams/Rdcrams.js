@@ -11,8 +11,8 @@ function Rdcrams() {
         <Header />
             
             <div className="rdcrams">
-            <img src={research} alt="research" />
-            <h1>R & D Crams</h1>
+            <img src={'/services.png'} alt="research" />
+            <h1>Services</h1>
             <p>
             TPPL can perform discovery and process chemistry through services that range from synthetic route identification and optimization to synthesis of niche building blocks, scaffolds and intermediate compounds for generating analogs.
             <br /><br />Another area of focus for TPPL is the custom synthesis of pre-clinical and clinical compounds on a multi-gram to multi-kilo scale.

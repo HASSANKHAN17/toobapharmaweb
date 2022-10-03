@@ -50,8 +50,9 @@ function Home() {
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 info">
                     <h2>Strength</h2>
                     <p>
-                    TPPL is in the process of filing four DMFs in regulated market.
-                    TPPL has developed patentable technologies. Recently we have filed patent for Glycopyrronium Bromide.
+                    <b>TPPL is in the process of filing four DMFs in regulated market.
+                    TPPL has developed patentable technologies. Recently we have filed patent for Glycopyrronium Bromide.</b>
+                    <br />
                     TPPL has gathered around technocrats with cumulative research experience for almost 90 years and have acclaimed more than 200 patents to their credit. So it is fully poised to meet challenges in developing non- infringing routes for various molecules. As far as regulatory experience is concerned this technical team in past was responsible for filing dozens of DMFs for regulated markets meeting stringent quality requirements. Excellent QA/QC facilities with all required instruments.
                     TPPL believes in developing the product from own methods by using mostly Indian Raw Materials.
                     TPPL endorses the Government of India's vision and mission of developing the products with indigenous sources-'Be vocal about local'.
