@@ -11,7 +11,6 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import DownloadIcon from '@mui/icons-material/Download';
 import toobalogo from '../../web data/tooba new logo 2019.jpg'
 
-
 const Header = (props) => {
 	React.useEffect(()=>{
 
@@ -155,12 +154,15 @@ console.log(props);
 			</Link>
 			</li>
 
-			
+		
 
 			<li className="nav-item">
-			<Button  href={require('../../web data/BROCHURE.pdf')}  endIcon={<DownloadIcon />} variant="contained">Download Brochure </Button>
-			</li>
-
+			<a className="anchor" href="/BROCHURE.pdf" download="TPPL BROCHURE">
+   			<Button endIcon={<DownloadIcon />} variant="contained">Download Brochure
+   			</Button>
+   			</a>
+			</li>	
+		
 		</ul>
 	</div>
 </div>
