@@ -38,7 +38,7 @@ function Home() {
                 <h1 className="gradient-color">Tooba Pharmaceuticals Private Limited</h1>
                 <p>"In The Business of Human Wellbeing"</p>
                 <blockquote>
-                Tooba Pharmaceuticals Private Limited (TPPL) is a GMP Certified manufacturer of API Bulk Drugs and Intermediates, with state-of-the-art manufacturing facility. TPPL retains its strong roots in R&D to explore and develop generics using newer technologies in an environment ­friendly manner. TPPL, headquartered in Aurangabad, Maharashtra is a major urban center and an industrial hub, home to several pharmaceutical industries. Well connected with major metropolitan areas within the state and beyond, there's a ready access to markets and raw materials. The manufacturing plant is situated in the Paithan Industrial area, erected as per the GMP norms laid down by FDA.
+                <b>Tooba Pharmaceuticals Private Limited (TPPL) is a GMP Certified manufacturer of API Bulk Drugs and Intermediates, with state-of-the-art manufacturing facility. TPPL retains its strong roots in R&D to explore and develop generics using newer technologies in an environment ­friendly manner. TPPL, headquartered in Aurangabad, Maharashtra is a major urban center and an industrial hub, home to several pharmaceutical industries. Well connected with major metropolitan areas within the state and beyond, there's a ready access to markets and raw materials. The manufacturing plant is situated in the Paithan Industrial area, erected as per the GMP norms laid down by FDA.</b>
                 </blockquote>
                 </div>
            </section>
