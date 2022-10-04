@@ -36,9 +36,9 @@ function Home() {
                 <div className="namecontainer">
                 {/* <img src={toobalogo} alt="toobalogo" /> */}
                 <h1 className="gradient-color">Tooba Pharmaceuticals Private Limited</h1>
-                <p>In The Business of Human Wellbeing <FormatQuoteRoundedIcon className="icon"/></p>
+                <p>In The Business of Human Wellbeing<FormatQuoteRoundedIcon className="icon"/></p>
                 <blockquote>
-                Tooba Pharmaceuticals Private Limited (TPPL) is a GMP Certified manufacturer of API Bulk Drugs and Intermediates, with state-of-the-art manufacturing facility. TPPL retains its strong roots in R&D to explore and develop generics using newer technologies in an environment­friendly manner. TPPL, headquartered in Aurangabad, Maharashtra is a major urban center and an industrial hub, home to several pharmaceutical industries. Well connected with major metropolitan areas within the state and beyond, there's a ready access to markets and raw materials. The manufacturing plant is situated in the Paithan Industrial area, erected as per the GMP norms laid down by FDA.
+                Tooba Pharmaceuticals Private Limited (TPPL) is a GMP Certified manufacturer of API Bulk Drugs and Intermediates, with state-of-the-art manufacturing facility. TPPL retains its strong roots in R&D to explore and develop generics using newer technologies in an environment ­friendly manner. TPPL, headquartered in Aurangabad, Maharashtra is a major urban center and an industrial hub, home to several pharmaceutical industries. Well connected with major metropolitan areas within the state and beyond, there's a ready access to markets and raw materials. The manufacturing plant is situated in the Paithan Industrial area, erected as per the GMP norms laid down by FDA.
                 </blockquote>
                 </div>
            </section>
@@ -86,7 +86,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Glycopyrronium Bromide
                         <br />
-                        (CAS No.: 51186-83-5)
+                        <span>(CAS No.: 51186-83-5)</span>
                         <br />
                         <span>Glycopyrronium Bromide Ph.Eur</span>
                         </p>
@@ -94,7 +94,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Trazodone Hydrochloride
                         <br />
-                        (CAS No.: 25332-39-2)
+                        <span>(CAS No.: 25332-39-2)</span>
                         <br />
                         <span>Trazodone Hydrochloride USP</span>
                         <br />
@@ -104,7 +104,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Glycopyrrolate
                         <br />
-                        (CAS No.: 596-51-0)
+                        <span>(CAS No.: 596-51-0)</span>
                         <br />
                         <span>Glycopyrrolate IP</span>
                         <br />
@@ -114,11 +114,35 @@ Environment friendliness and safety shall be part of TPPL culture.
                     <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Mexiletine Hydrochloride
                         <br />
-                        (CAS No.: 5370-01-4)
+                        <span>(CAS No.: 5370-01-04)</span>
                         <br />
-                        <span>Glycopyrronium Bromide Ph.Eur</span>
+                        <span>Mexiletine Hydrochloride Ph.Eur</span>
                         <br />
                         <span>Mexiletine Hydrochloride USP</span>
+                        </p>
+                    </div>
+                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Nitrofurantoin
+                        <br />
+                        <span>(CAS No.: 67-20-9)</span>
+                        <br />
+                        <span>Nitrofurantoin USP</span>
+                        <br />
+                        <span>Nitrofurantoin IP</span>
+                        <br />
+                        <span>Nitrofurantoin Ph.Eur</span>
+                        </p>
+                    </div>
+                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <p className="compname">Tamsulosin Hydrochloride
+                        <br />
+                        <span>(CAS No.: 106463-17-6)</span>
+                        <br />
+                        <span>Tamsulosin Hydrochloride USP</span>
+                        <br />
+                        <span>Tamsulosin Hydrochloride IP</span>
+                        <br />
+                        <span>Tamsulosin Hydrochloride Ph.Eur</span>
                         </p>
                     </div>
                 </div>
@@ -150,33 +174,13 @@ Environment friendliness and safety shall be part of TPPL culture.
             <section className="incoming-api row m-auto justify-content-around api-product-container">
                 
                 <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Nitrofurantoin
-                        <br />
-                        (CAS No.: 67-20-9)
-                        <br />
-                        </p>
-                </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Tamsulosin Hydrochloride
-                        <br />
-                        (CAS No.: 106463-17-3)
-                        <br />
-                        </p>
-                </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Tolterodine Tartrate
                         <br />
                         (CAS No.: 124937-52-6)
                         <br />
                         </p>
                 </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Rivaroxaban
-                        <br />
-                        (CAS No.: 366789-02-8)
-                        <br />
-                        </p>
-                </div>
+            
                 <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Aripiprazole
                         <br />
@@ -198,13 +202,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <br />
                         </p>
                 </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Metronidazole Benzoate
-                        <br />
-                        (CAS No.: 13182-89-3)
-                        <br />
-                        </p>
-                </div>
+                
                 <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Cyclizine Hydrochloride
                         <br />
@@ -212,13 +210,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <br />
                         </p>
                 </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Methylcobalamin
-                        <br />
-                        (CAS No.: 13422-55-4)
-                        <br />
-                        </p>
-                </div>
+                
             </section>
 
 

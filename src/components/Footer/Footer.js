@@ -36,7 +36,7 @@ function Footer() {
 
         <div className="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xl-3">
         <h4>Contact Us</h4>
-        <p><LocalPhoneIcon /> +919860581297, +919373680996</p>
+        <p><LocalPhoneIcon /> +91 9975827056, +91 7798005007</p>
         <p><MailOutlineIcon /> info@toobapharma.in</p>
         <p><LocationOnIcon /> Plot No:A-117, A-118 & A-119, Paithan Industrial Area, Aurangabad-431148 (M.S)</p>
         <img src="/makeinindiarmb.png" alt="makeinindia" className="makeinindialogo" />

@@ -11,6 +11,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import DownloadIcon from '@mui/icons-material/Download';
 import toobalogo from '../../web data/tooba new logo 2019.jpg'
 
+
 const Header = (props) => {
 	React.useEffect(()=>{
 
@@ -50,7 +51,7 @@ console.log(props);
 			className="hover-button"
 				id="basic-button"
 				aria-controls={open2 ? 'basic-menu' : undefined}
-				aria-haspopup="true"
+				popup="true"
 				aria-expanded={open2 ? 'true' : undefined}
 				onClick={handleClick2}
 				color="secondary"
@@ -110,7 +111,7 @@ console.log(props);
 	  className="hover-button"
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
-        aria-haspopup="true"
+        popup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
 		color="secondary"
@@ -154,11 +155,12 @@ console.log(props);
 			</Link>
 			</li>
 
+			
+
 			<li className="nav-item">
-			<Button endIcon={<DownloadIcon />} variant="contained">Download Brochure</Button>
+			<Button  href={require('../../web data/BROCHURE.pdf')}  endIcon={<DownloadIcon />} variant="contained">Download Brochure </Button>
 			</li>
-			
-			
+
 		</ul>
 	</div>
 </div>
