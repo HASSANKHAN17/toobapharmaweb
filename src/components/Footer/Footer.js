@@ -26,6 +26,7 @@ function Footer(props) {
         setSuccess(true)
         setTimeout(() => {
           setSuccess(null)
+          window.location.reload(false);
         }, 3000);
         //props.history.push("/")
     }, (error) => {
