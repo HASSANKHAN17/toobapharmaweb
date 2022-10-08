@@ -155,7 +155,13 @@ console.log(props);
 			</li>
 
 			<li className="nav-item">
-			<Button endIcon={<DownloadIcon />} variant="contained">Download Brochure</Button>
+			
+			<a className="anchor" href="/resume.pdf" download="Resume">
+			<Button endIcon={<DownloadIcon />} variant="contained">
+				Download Brochure
+			</Button>
+			</a>
+			
 			</li>
 			
 			

@@ -8,7 +8,31 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import toobapharmalogo from '../../web data/tooba new logo 2019.jpg'
 import LinkIcon from '@mui/icons-material/Link';
 import TelegramIcon from '@mui/icons-material/Telegram';
-function Footer() {
+import {useForm} from 'react-hook-form'
+import Alert from '@mui/material/Alert';
+import emailjs from 'emailjs-com';
+import { withRouter } from "react-router";
+function Footer(props) {
+  const {handleSubmit,formState:{errors},register} = useForm()
+  const [success,setSuccess] = React.useState(null)
+  const onSubmit = (data,e)=>{
+    console.log(data);
+    //setLoading(true)
+    //console.log()
+    emailjs.sendForm('service_3thpv83', 'template_4e34gy3',e.target, 'dvNOkhu6NNNUpisYu')
+    .then((result) => {
+        console.log(result.text);
+        //setLoading(false)
+        setSuccess(true)
+        setTimeout(() => {
+          setSuccess(false)
+        }, 3000);
+        //props.history.push("/")
+    }, (error) => {
+        console.log(error);
+        //setLoading(false)
+    });
+}
   return (
     <footer>
         <div className="row m-auto justify-content-between">
@@ -45,9 +69,10 @@ function Footer() {
 
         <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xl-4">
         <h4><TelegramIcon sx={{fontSize:30,marginRight:1}} /> Get In Touch !</h4>
-        <TextField className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Name" />
-                <TextField className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Email" />
-                <TextField className="my-3" fullWidth
+        <form onSubmit={handleSubmit(onSubmit)}>
+        <TextField  {...register('name',{required:true})} className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Name" />
+                <TextField {...register('email',{required:true})} className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Email" />
+                <TextField {...register('message',{required:true})} className="my-3" fullWidth
                 id="filled-multiline-static"
                 label="Message"
                 multiline
@@ -55,12 +80,16 @@ function Footer() {
                 // defaultValue="Default Value"
                 variant="filled"
                 />
-                <Button className="my-3" variant="contained" fullWidth>Submit</Button>
+                {success&&<Alert className="my-2" severity="success">Message Sent Successfully</Alert>}
+                <Button type="submit" className="my-3" variant="contained" fullWidth>Submit</Button>
+        </form>
         </div>
 
         </div>
     </footer>
   )
 }
-
-export default Footer
+//template_4e34gy3
+//service_3thpv83
+//dvNOkhu6NNNUpisYu
+export default withRouter(Footer)
