@@ -50,7 +50,7 @@ console.log(props);
 			className="hover-button"
 				id="basic-button"
 				aria-controls={open2 ? 'basic-menu' : undefined}
-				aria-haspopup="true"
+				popup="true"
 				aria-expanded={open2 ? 'true' : undefined}
 				onClick={handleClick2}
 				color="secondary"
@@ -110,7 +110,7 @@ console.log(props);
 	  className="hover-button"
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
-        aria-haspopup="true"
+        popup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
 		color="secondary"
@@ -154,17 +154,15 @@ console.log(props);
 			</Link>
 			</li>
 
+		
+
 			<li className="nav-item">
-			
-			<a className="anchor" href="/resume.pdf" download="Resume">
-			<Button endIcon={<DownloadIcon />} variant="contained">
-				Download Brochure
-			</Button>
-			</a>
-			
-			</li>
-			
-			
+			<a className="anchor" href="/BROCHURE.pdf" download="TPPL BROCHURE">
+   			<Button endIcon={<DownloadIcon />} variant="contained">Download Brochure
+   			</Button>
+   			</a>
+			</li>	
+		
 		</ul>
 	</div>
 </div>
