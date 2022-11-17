@@ -14,10 +14,10 @@ function Multimedia() {
             <section className="multimedia">
             <h1>Multimedia</h1>
             <div className="row m-auto news-letter">
-                <div className="col-4 img">
+                <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 img">
                   <img src={lokmat} alt="lokmat" />
                 </div>
-                <div className="col-8 info shadow">
+                <div className="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 info shadow">
                   <h3>Chemistry of Harmony</h3>
                   <p>
                   A research fellow, a teacher, a scientist. <b>DR S M JAWEED MUKARRAM</b> has a fascinating personality. And as was advised by his parents his efforts have been to achieve the highest degree of excellence in whatever he is doing. A man of science, he also roots for concept of green development. Pained by religious differences and turmoil around, hw feels that we should open up our minds and learn to respect each other. In a tete-e-tete with YOGESH GOLE, Tooba Laboratories CMD expresses his views on science, environment and religious tolerance

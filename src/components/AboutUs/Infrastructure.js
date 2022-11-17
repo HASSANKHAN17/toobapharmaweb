@@ -92,7 +92,7 @@ function Infrastructure() {
 
           <div className="mt-5 row mx-auto">
 
-          <div className="col-4 point-list">
+          <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2 point-list">
           <h3>Facilities</h3>
           <ol className="ui list">
           <li value="*">Multi Storeyed Finish Block</li>
@@ -110,7 +110,7 @@ function Infrastructure() {
         </ol>
         </div>
 
-        <div className="col-4 point-list">
+        <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2 point-list">
           <h3>Reaction Capabilities</h3>
           <ol className="ui list">
           <li value="*">Hydrogenation</li>
@@ -123,7 +123,7 @@ function Infrastructure() {
         </ol>
         </div>
 
-        <div className="col-4 point-list">
+        <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2 point-list">
           <h3>Approvals & Certifications</h3>
           <ol className="ui list">
           <li value="*">Environmental Clearance</li>

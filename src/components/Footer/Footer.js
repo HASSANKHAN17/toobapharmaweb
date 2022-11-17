@@ -47,7 +47,7 @@ function Footer(props) {
         </p>
         </div>
 
-        <div className="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xl-2">
+        <div className="col-12 col-sm-6 col-md-2 col-lg-2  col-xl-2 footer-bottom-cont" >
         <h4>Important Links</h4>
         <Link to="/overview" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> About Us</p></Link>
         <Link to="/rdcrams" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Services</p></Link>
@@ -59,7 +59,7 @@ function Footer(props) {
         <Link to="/careers" className="link"><p className="mb-3"><LinkIcon sx={{fontSize:15,marginRight:1}} /> Careers</p></Link>
         </div>
 
-        <div className="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xl-3">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3  col-xl-3 footer-bottom-cont" >
         <h4>Contact Us</h4>
         <p><LocalPhoneIcon /> +91 9975827056, +91 7798005007</p>
         <p><MailOutlineIcon /> info@toobapharma.in</p>
@@ -68,7 +68,7 @@ function Footer(props) {
 
         </div>
 
-        <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xl-4">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 footer-bottom-cont" >
         <h4><TelegramIcon sx={{fontSize:30,marginRight:1}} /> Get In Touch !</h4>
         <form onSubmit={handleSubmit(onSubmit)}>
         <TextField  {...register('name',{required:true})} className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Name" />

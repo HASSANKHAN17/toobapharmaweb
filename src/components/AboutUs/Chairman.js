@@ -12,11 +12,11 @@ function Chairman() {
             <h1>Chairman's Message</h1>
             <div className="row m-auto row-cont">
 
-              <div className="col-2">
+              <div className="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
               <img src={mainbuilding} alt="mainbuilding" />
               </div>
 
-              <div className="col-10 info-col shadow-sm">
+              <div className="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 info-col shadow-sm">
                 <h3>Chairman <span className="color-span">Dr. Jaweed Mukarram Siddiqui</span></h3>
                 <p>
                 Dr. Jaweed Mukarram Siddiqui obtained his PhD from the National Chemical Laboratories, Pune and completed his post doctoral studies in USA from University of California, Santa Barbara and Utah State University Logan, Utah. Upon his return from the US he joined a major Indian pharmaceutical company to work in the field of chemical research. He resigned as the company’s Senior Associate Director in 2008, after twenty gainful years, to float TPPL. He has 150 patents and publications to his credit.

@@ -14,12 +14,12 @@ function Vision() {
             <div className="overview">
             <h1>Vision, Mission and Values</h1>
             <div className="row m-auto vision-row">
-                <div className="col-4 vision-col">
+                <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 vision-col">
                     <img src={vision} alt="vision" />
                     <h3>Vision</h3>
                     <p>Striving for developing innovative processes consistent with highest quality standards in an environment friendly and cost-effective manner.</p>
                 </div>
-                <div className="col-4 vision-col">
+                <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 vision-col">
                 <img src={ecoearth} alt="vision" />
                     <h3>Mission</h3>
                     <p>
@@ -32,7 +32,7 @@ function Vision() {
                     Environment friendliness and safety shall be part of TPPL culture.
                     </p>
                 </div>
-                <div className="col-4 vision-col">
+                <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 vision-col">
                 <img src={values1} alt="vision" />
                     <h3>Values</h3>
                     <p>

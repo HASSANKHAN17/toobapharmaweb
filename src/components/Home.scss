@@ -255,12 +255,19 @@ background: linear-gradient(to bottom right, #018f6444, #b1ffe823);
             margin: 2% 2%;
             text-align: center;
             height: 100%;
+            
         }
         .compname{
-            font-size: 1em;
         }
     }
     }
+
+    .incoming-api{
+        .compname{
+            font-size: 1.2em;
+        }
+    }
+
 
     .section4{
         text-align: center;

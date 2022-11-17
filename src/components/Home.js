@@ -83,7 +83,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                 </div>
 
                 <div className="row m-auto justify-content-around api-product-container">
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Glycopyrronium Bromide
                         <br />
                         <span>(CAS No.: 51186-83-5)</span>
@@ -91,7 +91,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Glycopyrronium Bromide Ph.Eur</span>
                         </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Trazodone Hydrochloride
                         <br />
                         <span>(CAS No.: 25332-39-2)</span>
@@ -101,7 +101,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Trazodone Hydrochloride BP</span>
                         </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Glycopyrrolate
                         <br />
                         <span>(CAS No.: 596-51-0)</span>
@@ -111,7 +111,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Glycopyrrolate USP</span>
                         </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Mexiletine Hydrochloride
                         <br />
                         <span>(CAS No.: 5370-01-04)</span>
@@ -121,7 +121,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Mexiletine Hydrochloride USP</span>
                         </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Nitrofurantoin
                         <br />
                         <span>(CAS No.: 67-20-9)</span>
@@ -133,7 +133,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Nitrofurantoin Ph.Eur</span>
                         </p>
                     </div>
-                    <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Tamsulosin Hydrochloride
                         <br />
                         <span>(CAS No.: 106463-17-6)</span>
@@ -173,7 +173,7 @@ Environment friendliness and safety shall be part of TPPL culture.
             <h1 className="gradient-color-dark incom-api">In Progress API Products</h1>
             <section className="incoming-api row m-auto justify-content-around api-product-container">
                 
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Tolterodine Tartrate
                         <br />
                         (CAS No.: 124937-52-6)
@@ -181,21 +181,21 @@ Environment friendliness and safety shall be part of TPPL culture.
                         </p>
                 </div>
             
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Aripiprazole
                         <br />
                         (CAS No.: 129722-12-9)
                         <br />
                         </p>
                 </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Modafinil
                         <br />
                         (CAS No.: 68693-11-8)
                         <br />
                         </p>
                 </div>
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Cinacalcet Hydrochloride
                         <br />
                         (CAS No.: 364782-34-3)
@@ -203,7 +203,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         </p>
                 </div>
                 
-                <div className="blurcontainer col-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Cyclizine Hydrochloride
                         <br />
                         (CAS No.: 5897-18-7)
