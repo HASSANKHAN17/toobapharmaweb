@@ -33,7 +33,8 @@ function Careers(props) {
     <div>
         <Header />
             <div className="careers">
-                <h1>Careers</h1>
+              <h1 className="my-5 py-5">Kindly send your resume on info@toobapharma.in</h1>
+                {/* <h1>Careers</h1>
                 <form onSubmit={handleSubmit(onSubmit)}>
                 <TextField {...register('name',{required:true})} className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Name" />
                 <TextField {...register('email',{required:true})} className="my-3" fullWidth id="outlined-basic" variant='outlined' label="Email" />
@@ -47,7 +48,7 @@ function Careers(props) {
                 />
                 {success&&<Alert className="my-2" severity="success">Message Sent Successfully</Alert>}
                 <Button type="submit" className="my-3" variant="contained" fullWidth>Submit</Button>
-                </form>
+                </form> */}
             </div>
 
         <Footer />
